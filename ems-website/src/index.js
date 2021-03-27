@@ -6,6 +6,7 @@ import Hero from './Components/Hero'
 import About from './Components/About'
 import HallRental from './Components/HallRental'
 import HowToJoin from './Components/HowToJoin'
+import Footer from './Components/Footer'
 
 import reportWebVitals from './reportWebVitals';
 
@@ -16,7 +17,7 @@ ReactDOM.render(
     <About />
     <HallRental />
     <HowToJoin />
-    
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
