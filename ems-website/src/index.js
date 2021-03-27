@@ -7,6 +7,9 @@ import About from './Components/About'
 import HallRental from './Components/HallRental'
 import HowToJoin from './Components/HowToJoin'
 import Footer from './Components/Footer'
+import Donation from './Components/Donation'
+
+
 
 import reportWebVitals from './reportWebVitals';
 
@@ -17,6 +20,7 @@ ReactDOM.render(
     <About />
     <HallRental />
     <HowToJoin />
+    <Donation />
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')

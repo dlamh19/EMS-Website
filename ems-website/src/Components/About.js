@@ -1,4 +1,5 @@
 import './About.css';
+import {Button } from "react-bootstrap";
 
 
 function About() {
@@ -14,8 +15,7 @@ function About() {
                 <h1>What do we do?</h1>
                 <h2>We serve the residents of Edison</h2>
                 <p>Fleets of ambulances, along with rescue and special equipment</p>
-                <button class = "mainButton"><a href="#">About Us</a></button>
-
+               
             </div>
         </div>
     </div>

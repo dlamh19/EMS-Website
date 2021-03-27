@@ -8,7 +8,6 @@ function Hero() {
         <div class="hero-container">
             <h1 class="hero-heading">Raritan Valley Regional <span>EMS</span></h1>
             <p class="hero-description">Non-Profit Organizaition</p>
-            <button class = "mainButton"><a href="/">Explore</a></button>
         </div>
     </div>
   );

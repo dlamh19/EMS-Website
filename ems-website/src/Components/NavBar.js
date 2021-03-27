@@ -36,11 +36,15 @@ function NavBar() {
                     </li>
 
                     <li class="navBar-item">
+                        <a href="#sign-up" class="navBar-links" id="servicePage">How To Join</a>
+                    </li>
+
+                    <li class="navBar-item">
                         <a href="#services" class="navBar-links" id="aboutPage">Hall Rental</a>
                     </li>
 
                     <li class="navBar-item">
-                        <a href="#sign-up" class="navBar-links" id="servicePage">How To Join</a>
+                        <a href="#sign-up" class="navBar-links" id="servicePage">Donation</a>
                     </li>
 
                     <li class="navBar-btn">
@@ -57,12 +61,12 @@ function NavBar() {
 
 
                                 <h3>Contact Form</h3>
-                                <form> 
-                                    <div class = "inputList">
-                                        <input type = "text" id = "name" placeholder = "Name" required></input>
-                                        <input type = "text" id = "email" placeholder = "Email" required></input>
-                                        <input type = "text" id = "phone" placeholder = "Phone Number" required></input>
-                                        <input type = "text" id = "message" placeholder = "Message" required></input>
+                                <form>
+                                    <div class="inputList">
+                                        <input type="text" id="name" placeholder="Name" required></input>
+                                        <input type="text" id="email" placeholder="Email" required></input>
+                                        <input type="text" id="phone" placeholder="Phone Number" required></input>
+                                        <input type="text" id="message" placeholder="Message" required></input>
 
                                     </div>
                                 </form>
