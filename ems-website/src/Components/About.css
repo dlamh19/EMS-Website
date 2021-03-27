@@ -1,0 +1,105 @@
+.main {
+    background-color: #131313;
+    padding: 10rem 0;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.main-content {
+    color: #fff;
+    width: 100%;
+}
+
+.main-content h1 {
+    font-size: 2rem;
+    background-color: #FDF8F5;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.main-content h2 {
+    font-size: 4rem;
+    background: #FDF8F5;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.main-content p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.mainButton {
+    font-size: 2rem;
+    background: green;
+    color:white;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 10px;
+    margin-top: .5rem;
+    transition: all .3s;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+}
+
+.mainButton a{
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-decoration: none;
+}
+
+.mainButton::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: black;
+    border-radius: 10px;
+    transition: all .35s;
+}
+
+
+.mainButton:hover:after {
+    width: 100%;
+} 
+
+.main-imgContainer {
+    text-align: center;
+}
+
+.main-imgCard {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: white;
+
+}

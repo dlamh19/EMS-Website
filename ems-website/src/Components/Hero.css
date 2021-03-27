@@ -23,6 +23,7 @@
     font-size: 5rem;
     margin-bottom: 1rem;
     color: #FDF8F5;
+    border-bottom: 5px solid #FDF8F5;
 }
 
 .hero-heading span {

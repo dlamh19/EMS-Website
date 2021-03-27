@@ -6,6 +6,11 @@
     font-family: 'Spartan', sans-serif;
 }
 
+.logo {
+    margin: auto;
+    padding: auto;
+}
+
 .navBar{
     background: #FDF8F5;
     height: 80px;

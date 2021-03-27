@@ -1,12 +1,14 @@
 import './NavBar.css';
-
+import rvrems  from './rvrems.png'
 
 function NavBar() {
   return (
       
     <nav class="navBar">
+        
         <div class="navBar-container">
-            <a href="#home" id="navbar-logo">Raritan Valley Regional EMS</a>
+            <img src={rvrems} class = "logo" alt="logo" width="180" height="49"/>
+
             <div class="navBar-toggle" id="mobileMenu">
                 <span class="bar"></span>
                 <span class="bar"></span>

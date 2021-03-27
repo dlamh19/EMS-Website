@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import NavBar from './Components/NavBar'
 import Hero from './Components/Hero'
+import About from './Components/About'
 
 import reportWebVitals from './reportWebVitals';
 
@@ -10,6 +11,7 @@ ReactDOM.render(
   <React.StrictMode>
     <NavBar />
     <Hero />
+    <About />
   </React.StrictMode>,
   document.getElementById('root')
 );
