@@ -4,6 +4,8 @@ import './index.css';
 import NavBar from './Components/NavBar'
 import Hero from './Components/Hero'
 import About from './Components/About'
+import HallRental from './Components/HallRental'
+import HowToJoin from './Components/HowToJoin'
 
 import reportWebVitals from './reportWebVitals';
 
@@ -12,6 +14,9 @@ ReactDOM.render(
     <NavBar />
     <Hero />
     <About />
+    <HallRental />
+    <HowToJoin />
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -24,11 +24,11 @@ function NavBar() {
                 </li>
 
                 <li class="navBar-item">
-                    <a href="#about" class="navBar-links" id="aboutPage">Hall Rental</a>
+                    <a href="#services" class="navBar-links" id="aboutPage">Hall Rental</a>
                 </li>
             
                 <li class="navBar-item">
-                    <a href="#services" class="navBar-links" id="servicePage">How To Join</a>
+                    <a href="#sign-up" class="navBar-links" id="servicePage">How To Join</a>
                 </li>
 
                 <li class="navBar-btn">
