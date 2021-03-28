@@ -18,8 +18,8 @@ ReactDOM.render(
     <NavBar />
     <Hero />
     <About />
-    <HallRental />
     <HowToJoin />
+    <HallRental />
     <Donation />
     <Footer />
   </React.StrictMode>,

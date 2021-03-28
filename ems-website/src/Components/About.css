@@ -91,7 +91,7 @@
     text-align: center;
 }
 
-.main-imgCard {
+.main-imgCard1 {
     margin: 10px;
     height: 500px;
     width: 500px;
@@ -100,6 +100,33 @@
     flex-direction: column;
     justify-content: center;
     color: white;
-    background-color: white;
+    background-image: url("./ems\ community.png");
+    background-size: cover;
+
+}
+.main-imgCard2 {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-image: url("./ems\ application.png");
+    background-size: cover;
+
+}
+.main-imgCard3 {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-image: url("./ems\ donation.png");
+    background-size: cover;
 
 }

@@ -4,7 +4,7 @@ import './HallRental.css';
 function HallRental() {
   return (
       
-    <div class="services" id = "services">
+    <div class="services" id = "hallRental">
         <h1>Hall Rental</h1>
         <div class="services-wrapper">
             <div class="services-cards">

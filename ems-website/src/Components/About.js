@@ -8,7 +8,7 @@ function About() {
     <div class="main" id="about">
         <div class="main-container">
             <div class="main-imgContainer">
-                <div class="main-imgCard"><i class="far fa-snowflake"></i>
+                <div class="main-imgCard1">
                 </div>
             </div>
             <div class="main-content">
