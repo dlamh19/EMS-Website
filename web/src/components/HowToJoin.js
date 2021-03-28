@@ -1,5 +1,3 @@
-
-
 function HowToJoin() {
   return (
       

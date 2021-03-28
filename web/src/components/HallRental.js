@@ -1,4 +1,4 @@
-import './HallRental.css';
+import './styles.css';
 
 
 function HallRental() {

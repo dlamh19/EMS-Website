@@ -1,0 +1,445 @@
+.main {
+    background-color: #131313;
+    padding: 10rem 0;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.main-content {
+    color: #fff;
+    width: 100%;
+}
+
+.main-content h1 {
+    font-size: 2rem;
+    background-color: #FDF8F5;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.main-content h2 {
+    font-size: 4rem;
+    background: #FDF8F5;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.main-content p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.mainButton {
+    font-size: 2rem;
+    background: rgb(43, 82, 209);
+    color:white;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 10px;
+    margin-top: .5rem;
+    transition: all .3s;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+}
+
+.mainButton a{
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-decoration: none;
+}
+
+.mainButton::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: black;
+    border-radius: 10px;
+    transition: all .35s;
+}
+
+
+.mainButton:hover:after {
+    width: 100%;
+} 
+
+.main-imgContainer {
+    text-align: center;
+}
+
+.main-imgCard1 {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-image: url("./ems\ community.png");
+    background-size: cover;
+
+}
+.main-imgCard2 {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-image: url("./ems\ application.png");
+    background-size: cover;
+
+}
+.main-imgCard3 {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-image: url("./ems\ donation.png");
+    background-size: cover;
+
+}
+
+.footer-container {
+    background-color: #131311;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-logo {
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.footer-links {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link-wrapper {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.footer-link-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.footer-link-items h2 {
+    margin-bottom: 16px;
+    color: white;
+}
+
+.footer-link-items a {
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link-items a:hover {
+    transition: .3s ease-out;
+    color: #e9e9e9;
+}
+
+.social-icon-link {
+    color: white;
+    font-size: 24px;
+}
+
+.social-media {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.social-media-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+}
+
+.website-rights {
+    color:white;
+}
+
+.hero {
+    background-size: cover;
+    background-image: url("ems\ background.png");
+    padding: 200px;
+    height: 875px;
+    
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90%;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.hero-heading {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    color: #FDF8F5;
+    border-bottom: 5px solid #FDF8F5;
+}
+
+.hero-heading span {
+    background: #FDF8F5;  /* fallback for old browsers */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+
+}
+
+.hero-description {
+    font-size: 2.5rem;
+    background: #FDF8F5;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Spartan', sans-serif;
+}
+
+.logo {
+    margin: auto;
+    padding: auto;
+}
+
+.navBar{
+    background: #FDF8F5;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navBar-container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 50px;
+
+}
+
+#navbar-logo{
+    background-color: #4F4846;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.navBar-menu{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navBar-item{
+    height: 80px;
+}
+
+.navBar-links{
+    color: #4F4846;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    text-decoration: none;
+    height: 100%;
+
+}
+
+.navBar-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    text-decoration: none;
+    width: 100%;
+}
+
+
+.services {
+    background: #131313;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 10rem 0;
+}
+
+.services h1 {
+    background-color: #FDF8F5;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+}
+
+.services-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.services-cards {
+    margin: 10px;
+    height: 425px;
+    width: 300px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    transition: .3s ease-in;
+
+}
+.services-cards:nth-child(1) {
+    background: #FDF8F5; 
+}
+.services-cards:nth-child(2) {
+    background: #FDF8F5;  /* fallback for old browsers */
+
+    
+    
+}
+.services-cards:nth-child(3) {
+    background: #FDF8F5
+
+}
+.services-cards:nth-child(4) {
+    background: #FDF8F5
+
+
+}
+
+.services-cards h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+
+
+}
+
+.services-cards p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.services-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+
+}
+
+.services-button button{
+    color: white;
+    padding: 15px 20px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    background-color: #131313;
+    font-size: 1rem;
+}
+
+.services-button button:hover {
+    cursor: pointer;
+}
+
+.services-cards:hover {
+    transform: scale(1.075);
+    transition: all .3s ease-out;
+    cursor: pointer;
+}

@@ -1,13 +1,11 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-
-import './NavBar.css';
+import './styles.css';
 import React, { useState } from "react";
 
 import { Modal, Button } from "react-bootstrap";
 
 import rvrems from './rvrems.png'
 
-export function NavBar() {
+function NavBar() {
 
     const [showModal, setShow] = useState(false);
 
@@ -15,7 +13,6 @@ export function NavBar() {
     const handleShow = () => setShow(true);
 
     return (
-
         <nav class="navBar">
 
             <div class="navBar-container">

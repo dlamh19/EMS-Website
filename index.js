@@ -1,6 +1,6 @@
+import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import NavBar from './Components/NavBar'
 import Hero from './Components/Hero'
 import About from './Components/About'

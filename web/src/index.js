@@ -3,11 +3,26 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
+import NavBar from './components/NavBar'
+import Hero from './components/Hero'
+import About from './components/About'
+import HallRental from './components/HallRental'
+import HowToJoin from './components/HowToJoin'
+import Footer from './components/Footer'
+import Donation from './components/Donation'
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <NavBar />
+    <Hero />
+    <About />
+    <HowToJoin />
+    <HallRental />
+    <Donation />
     <App />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
