@@ -18,6 +18,8 @@ function Footer() {
                 <a href="/">1</a> 
                 <a href="/">2</a>
                 <a href="/">3</a>
+                <a href="/">4</a>
+
             </div>
           </div>
           <div class="footer-link-wrapper">
@@ -26,6 +28,8 @@ function Footer() {
                 <a href="/">1</a> 
                 <a href="/">2</a>
                 <a href="/">3</a>
+                <a href="/">4</a>
+
             </div>
             <div class="footer-link-items">
                 <h2>Social Media</h2>
