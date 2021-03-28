@@ -1,6 +1,4 @@
 import './styles.css';
-import {Button } from "react-bootstrap";
-
 
 function About() {
   return (
