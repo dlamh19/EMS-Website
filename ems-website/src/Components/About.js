@@ -1,4 +1,4 @@
-import './About.css';
+import './styles.css';
 import {Button } from "react-bootstrap";
 
 

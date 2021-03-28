@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import './NavBar.css';
+import './styles.css';
 import React, { useState } from "react";
 
 import { Modal, Button } from "react-bootstrap";
